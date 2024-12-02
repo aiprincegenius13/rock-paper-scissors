@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: black;
+  
+}
+
+h1 {
+    font-size: 72px;
+    margin-bottom: 200px;
+    border: 2px solid green;
+}
+
+
+.choice {
+    font-size: 32px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.choice:hover {
+    background-color: red;
+}
+
+.results {
+    margin-top: 20px;
+    font-size: 56px;
+}
+
+#result-message {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
